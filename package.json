@@ -1,5 +1,5 @@
 {
-  "name": "rodrix",
+  "name": "rodrix-steel",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,12 @@
     "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
     "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
-  "keywords": [],
+  "keywords": [
+    "vpn project"
+  ],
   "author": "Enz",
   "license": "ISC",
-  "description": "",
+  "description": "LandingPage Ferreteria Rodrix",
   "dependencies": {
     "@tailwindcss/cli": "^4.0.14",
     "smooth-scroll": "^16.1.3",
